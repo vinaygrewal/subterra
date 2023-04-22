@@ -1,0 +1,110 @@
+#community{
+    
+    position: relative;
+    height: 80vh;
+
+}
+#community::before{ 
+    content: "";
+    background: url(../../image/communitybg.png) no-repeat center center/cover;
+    
+    
+    position: absolute;
+    height: 85vh;
+    width:100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    opacity: 0.9;
+    
+    }
+    .community-logo{
+        position: absolute;
+        left:38%; 
+        top:80px
+    }
+    .c-1{
+        position: absolute;
+        left:200px; 
+        top:160px 
+    }
+    .c-2{
+        position: absolute;
+       right:200px; 
+        top:160px 
+    }
+    .c-3{
+        position: absolute;
+        left:200px; 
+        top:316px 
+    }
+    .c-4{
+        position: absolute;
+       right:200px; 
+        top:316px 
+    }
+    .main-co{
+        width:730px;
+        color: white;
+        position: absolute;
+        top:220px;
+        left:400px;
+        text-align: center;
+    }
+    .main-co img{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        font-family: var(--heading);
+        margin-bottom: 15px;
+    }
+    
+    .main-co p{
+        font-size: 16px;
+        
+        line-height: 26px;
+        font-family: var(--subheading);
+        margin-bottom: 40px;
+    }
+    .cv1{
+        position: absolute;
+        left:200px; 
+        top:316px 
+    }
+    .cv2{
+        position: absolute;
+        left:200px; 
+        top:270px 
+    }
+    .cv3{
+        position: absolute;
+        right:199px; 
+        top:316px 
+    }
+    .cv4{
+        position: absolute;
+        right:199px;  
+        top:270px 
+    }
+    .ch1{
+        position: absolute;
+        right: 589px;
+    top: 167px;
+    }
+    .ch2{
+        position: absolute;
+        left: 589px;
+    top: 167px;
+    }
+    .ch3{
+        position: absolute;
+        left: 589px;
+    top: 422px;
+    }
+    .ch4{
+        position: absolute;
+        right: 589px;
+    top: 422px;
+    }
+    
+    

@@ -1,0 +1,58 @@
+#how{
+    background: black;
+    position: relative;
+    height:555px
+}
+#how::before{
+    content: "";
+   background:
+   linear-gradient(rgba(145, 33, 144,0.4), rgba(255, 149, 0,0.3)),
+   url(../../image/howbg.png) no-repeat center center/cover;
+background-size: contain;
+
+position: absolute;
+height: 78vh;
+width:50%;
+top: 0;
+right: 0;
+z-index: 1;
+opacity: 0.9;
+}
+
+.how-logo{
+    position: absolute;
+    left:0px;
+    top:0px;
+    z-index: 10;
+}
+.how-bg{
+    position: absolute;
+    right:0;
+    top:70px;
+}
+div.main{
+    color: white;
+    width: 437px;
+    position: absolute;
+   left:150px;
+    top:186px;
+    display: flex;
+    flex-direction: column;
+}
+.main h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: var(--feature);
+    margin-bottom: 15px;
+}
+.main p{
+    font-size: 16px;
+    
+    line-height: 26px;
+    font-family: var(--subheading);
+    margin-bottom: 40px;
+}
+.main .btn{
+width:200px
+}

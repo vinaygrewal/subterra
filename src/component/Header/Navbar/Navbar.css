@@ -1,0 +1,48 @@
+nav{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-left: 25px;
+    padding-top: 25px;
+}
+.navbar-left{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin: 0 25px;
+}
+ul li a{
+ align-items: flex-end;
+    color: white;
+    font-family: var(--heading);
+    
+    
+font-style: Regular;
+font-size: 18px;
+line-height: 100%;
+align:left;
+
+}
+span{
+    font-family: var(--heading); 
+}
+.navbar-mid{
+    display: flex;
+}
+.vector{
+    height: 58px;
+    width: 58px;
+}
+ul li.item1{
+    background: linear-gradient(
+            to left, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
